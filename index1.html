@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모바일 앱 만들기 (날씨)</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    
+    <link rel="stylesheet" href="css/style1.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" integrity="sha384-vuFJ2JiSdUpXLKGK+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF" crossorigin="anonymous"></script>
+    <script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
+
+    
+   
+
+</head>
+<body>
+    <div id="depth2">
+        <div id="search-box">
+            <input id="search-txt" type="text" placeholder="Search Location..." onkeypress="enter()">
+        </div>
+        <div class="top">
+            <div class="city"></div>
+            <div class="cicon"></div>
+            <div class="ctemp"></div>
+            <di class="temp">
+                <div class="cmintemp">최저  </div>
+                <div class="cmaxtemp"> / 최고  </div>
+            </di >
+        </div>
+       <div class="today">
+            <div class="wind"><img src="./image/wind-solid 1.png" alt="wind"></div>
+            <div class="humidity"><img src="./image/Vector.png" alt="drop"></div>
+            <div class="cloud"><img src="./image/cloud-solid 1.png" alt="colud"></div>
+        </div>  
+    </div>
+</body>
+</html>
